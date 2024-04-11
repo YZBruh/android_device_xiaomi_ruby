@@ -28,15 +28,9 @@ endif
 
 # A/B
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
     android.hardware.boot@1.2-impl \
     android.hardware.boot@1.2-impl.recovery \
     android.hardware.boot@1.2-service
-=======
-    android.hardware.boot@1.2-impl \
-    android.hardware.boot@1.2-impl.recovery \
-    android.hardware.boot@1.2-service
->>>>>>> 6bfb112 (ruby: Switch to AOSP Boot implementation)
 
 PRODUCT_PACKAGES += \
     create_pl_dev \
