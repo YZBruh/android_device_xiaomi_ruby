@@ -447,5 +447,5 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mfidoca@1.0.vendor:64
 
 # Inherit the proprietary files
-$(call inherit-product-if-exists, device/xiaomi/miuicamera-ruby/device.mk)
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera-ruby/miuicamera.mk)
 $(call inherit-product, vendor/xiaomi/ruby/ruby-vendor.mk)
